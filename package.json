@@ -42,19 +42,12 @@
     "typescript": "^4.9.4"
   },
   "oclif": {
-    "bin": "markji",
-    "dirname": "markji",
     "commands": "./dist/commands",
-    "plugins": [
-      "@oclif/plugin-help",
-      "@oclif/plugin-plugins"
+    "scope": "maimemo-cli",
+    "devPlugins": [
+      "@oclif/plugin-help"
     ],
-    "topicSeparator": " ",
-    "topics": {
-      "hello": {
-        "description": "Say hello to the world and others"
-      }
-    }
+    "bin": "markji"
   },
   "scripts": {
     "build": "shx rm -rf dist && tsc -b",
@@ -70,7 +63,11 @@
   },
   "bugs": "https://github.com/maimemo-cli/plugin-markji/issues",
   "keywords": [
-    "oclif"
+    "oclif",
+    "maimemo",
+    "maimemo-cli",
+    "markji",
+    "plugin-markji"
   ],
   "types": "dist/index.d.ts"
 }
