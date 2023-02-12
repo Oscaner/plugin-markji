@@ -58,7 +58,10 @@
     "bin": "maimemo",
     "topics": {
       "markji": {
-        "description": "Manage markji assets interactively"
+        "description": "Manage markji assets (folder, etc...) interactively"
+      },
+      "markji:folder": {
+        "description": "Manage markji folder interactively"
       }
     }
   },
